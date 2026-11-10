@@ -1,1 +1,1 @@
-WIP
+A Python-centered library for making incremental game, be it big or small.
