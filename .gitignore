@@ -1,0 +1,28 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Packaging and build artefacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing and linter caches
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# VS Code local settings
+.vscode/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
