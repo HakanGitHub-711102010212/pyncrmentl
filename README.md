@@ -29,10 +29,12 @@ pip install pyncrmentl
 
 ```python
 import pyncrmentl
-from pyncrmentl.basic import currency, upgrade, reset, challenge
-
-# Example: Initialise your core game manager and basic mechanics
-# Replace the calls below with your actual class and function names
+from pyncrmentl import *
+import time
+inc_manager = Manager(currencies=Currency("Points", persec = 0, starting = 0))
+Manager.begin_game()
+time.sleep(1000)
+print(Manager[points]) # returns 1
 ```
 
 ## Project Structure
